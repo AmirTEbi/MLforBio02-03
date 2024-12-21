@@ -1,0 +1,11 @@
+{
+    "model_name": "mix",
+    "data_path":"data/processed/counts_normal.csv",
+    "labels_path": "data/processed/labels.csv",
+    "save_path": "results/mix/kbest/logreg-knn",
+    "fs_method": "f_classif",
+    "model_settings": {
+        "model1":"LogistRegression",
+        "model2":"KNN"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "model_name": "RF",
+    "data_path":"data/processed/counts_normal.csv",
+    "labels_path":"data/processed/labels.csv",
+    "save_path":"results/RF/kbest-pca",
+    "fs_method":"f_classif",
+    "model_settings":{
+        "n_components":100,
+        "max_depth":3
+    }
+}
